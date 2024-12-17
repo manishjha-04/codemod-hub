@@ -1,10 +1,9 @@
 {
   "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
   "name": "react-router/7/add_v7_normalizeFormMethod",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engine": "jscodeshift",
   "private": false,
-  "arguments": [],
   "applicability": {
     "from": [
       [
@@ -14,6 +13,7 @@
       ]
     ]
   },
+  "arguments": [],
   "meta": {
     "tags": [
       "react-router",

@@ -1,18 +1,9 @@
 {
   "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
   "name": "meteor/v3/api-rename-express-migration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engine": "jscodeshift",
   "private": false,
-  "arguments": [],
-  "meta": {
-    "tags": [
-      "meteor",
-      "v3",
-      "migration"
-    ],
-    "git": "https://github.com/manishjha-04/codemod-hub/tree/main/codemods/meteor/v3/webapp-handler-renaming"
-  },
   "applicability": {
     "from": [
       [
@@ -33,5 +24,14 @@
         "3"
       ]
     ]
+  },
+  "arguments": [],
+  "meta": {
+    "tags": [
+      "meteor",
+      "v3",
+      "migration"
+    ],
+    "git": "https://github.com/manishjha-04/codemod-hub/tree/main/codemods/meteor/v3/webapp-handler-renaming"
   }
 }

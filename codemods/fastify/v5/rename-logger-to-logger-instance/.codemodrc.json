@@ -1,9 +1,9 @@
 {
   "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
-  "version": "1.0.0",
-  "private": false,
   "name": "fastify/5/rename-logger-to-logger-instance",
+  "version": "1.0.1",
   "engine": "jscodeshift",
+  "private": false,
   "applicability": {
     "from": [
       [
@@ -25,6 +25,7 @@
       ]
     ]
   },
+  "arguments": [],
   "meta": {
     "tags": [
       "fastify",
