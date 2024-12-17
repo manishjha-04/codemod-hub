@@ -1,0 +1,1 @@
+fastify.listen(8000);

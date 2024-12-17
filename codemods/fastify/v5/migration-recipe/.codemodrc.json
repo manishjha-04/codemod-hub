@@ -1,0 +1,58 @@
+{
+  "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
+  "name": "fastify/5/migrationRecipe",
+  "version": "1.0.2",
+  "engine": "recipe",
+  "private": false,
+  "include": [
+    "/.js",
+    "/.jsx",
+    "/.ts",
+    "/.tsx",
+    "/*.vue"
+  ],
+  "applicability": {
+    "from": [
+      [
+        "fastify",
+        ">=",
+        "4.0.0"
+      ],
+      [
+        "fastify",
+        "<",
+        "5.0.0"
+      ]
+    ],
+    "to": [
+      [
+        "fastify",
+        ">=",
+        "5.0.0"
+      ]
+    ]
+  },
+  "arguments": [],
+  "meta": {
+    "tags": [
+      "fastify",
+      "migration"
+    ],
+    "git": "https://github.com/manishjha-04/codemod-hub/tree/main/codemods/fastify/v5/migration-recipe"
+  },
+  "names": [
+    "fastify/5/req-params-hasOwnProperty-to-objectHasOwn",
+    "fastify/5/listen-arg-transformation",
+    "fastify/5/replace-hardcoded-url-in-hasroute",
+    "fastify/5/replace-reply-sent-with-hijack",
+    "fastify/5/add-expose-head-routes-option",
+    "fastify/5/decorate-request-to-getter-method",
+    "fastify/5/route-schema-enhancement",
+    "fastify/5/req-connection-to-socket",
+    "fastify/5/getResponseTime-to-elapsedTime",
+    "fastify/5/redirect-arg-order",
+    "fastify/5/make-reply-trailer-async",
+    "fastify/5/remove-done-callback",
+    "fastify/5/rename-logger-to-logger-instance"
+  ]
+}

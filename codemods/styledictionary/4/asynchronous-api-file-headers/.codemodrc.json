@@ -1,0 +1,37 @@
+{
+  "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
+  "name": "styledictionary/4/asynchronous-api-file-headers",
+  "version": "1.0.3",
+  "engine": "jscodeshift",
+  "private": false,
+  "applicability": {
+    "from": [
+      [
+        "styledictionary",
+        ">=",
+        "3.0.0"
+      ],
+      [
+        "styledictionary",
+        "<",
+        "4.0.0"
+      ]
+    ],
+    "to": [
+      [
+        "styledictionary",
+        ">=",
+        "4.0.0"
+      ]
+    ]
+  },
+  "arguments": [],
+  "meta": {
+    "tags": [
+      "styledictionary",
+      "4",
+      "migration"
+    ],
+    "git": "https://github.com/manishjha-04/codemod-hub/tree/main/codemods/styledictionary/4/asynchronous-api-file-headers"
+  }
+}

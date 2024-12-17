@@ -1,0 +1,37 @@
+{
+  "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
+  "name": "react-router/7/migration-recipe",
+  "version": "1.0.2",
+  "engine": "recipe",
+  "private": false,
+  "applicability": {
+    "from": [
+      [
+        "react-router",
+        "<",
+        "7.0.0"
+      ]
+    ]
+  },
+  "arguments": [],
+  "meta": {
+    "tags": [
+      "react-router",
+      "migration",
+      "v7"
+    ],
+    "git": "https://github.com/manishjha-04/codemod-hub/tree/main/codemods/react-Router/v7/Upgrade Recipe"
+  },
+  "names": [
+    "react-router/7/relative-links",
+    "react-router/7/add_v7_relativeSplatPath_Flag",
+    "react-router/7/errorfirst-mutation-reorder",
+    "react-router/7/form-methods-post-get-to-uppercase",
+    "react-router/7/route-wildcard-to-nested",
+    "react-router/7/add_v7_startTransition_Flag",
+    "react-router/7/add_v7_fetcherPersist_Flag",
+    "react-router/7/add_v7_normalizeFormMethod",
+    "react-router/7/add_v7_partialHydration_Flag",
+    "react-router/7/add_v7_skipActionStatusRevalidation_Flag"
+  ]
+}

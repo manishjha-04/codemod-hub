@@ -1,0 +1,25 @@
+{
+  "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
+  "name": "react-router/6/useHistory-to-useNavigate",
+  "version": "1.0.0",
+  "engine": "workflow",
+  "private": false,
+  "applicability": {
+    "from": [
+      [
+        "react-router",
+        "<",
+        "6.0.0"
+      ]
+    ]
+  },
+  "arguments": [],
+  "meta": {
+    "tags": [
+      "react-router",
+      "migration",
+      "v6"
+    ],
+    "git": "https://github.com/manishjha-04/codemod-hub/tree/main/codemods/react-Router/v6/useHistory-to-useNavigate"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
+  "name": "fastify/5/remove-done-callback",
+  "version": "1.0.1",
+  "engine": "jscodeshift",
+  "private": false,
+  "applicability": {
+    "from": [
+      [
+        "fastify",
+        ">=",
+        "4.0.0"
+      ],
+      [
+        "fastify",
+        "<",
+        "5.0.0"
+      ]
+    ],
+    "to": [
+      [
+        "fastify",
+        ">=",
+        "5.0.0"
+      ]
+    ]
+  },
+  "arguments": [],
+  "meta": {
+    "tags": [
+      "fastify",
+      "5",
+      "migration"
+    ],
+    "git": "https://github.com/manishjha-04/codemod-hub/tree/main/codemods/fastify/v5/remove-done-callback"
+  }
+}

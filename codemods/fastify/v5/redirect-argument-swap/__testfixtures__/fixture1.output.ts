@@ -1,0 +1,1 @@
+reply.redirect('/new-route', 301);

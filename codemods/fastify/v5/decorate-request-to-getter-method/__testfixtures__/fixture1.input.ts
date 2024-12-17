@@ -1,0 +1,1 @@
+fastify.decorateRequest('myObject', { hello: 'world' });

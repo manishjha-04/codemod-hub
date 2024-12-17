@@ -1,0 +1,2 @@
+< RouterProvider router = { router }
+/>;
