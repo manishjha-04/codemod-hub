@@ -1,8 +1,4 @@
-
-
-
-
-This  codemods designed to facilitate the migration of your project from React Router to version 7. Each codemod targets specific changes and improvements introduced in React Router v7, ensuring a smoother transition.
+This codemods designed to facilitate the migration of your project from React Router to version 7. Each codemod targets specific changes and improvements introduced in React Router v7, ensuring a smoother transition.
 
 ## Included Codemods
 
@@ -23,7 +19,7 @@ The following codemods are included in this recipe:
 5. **[`react-router/7/route-wildcard-to-nested`](https://codemod.com/registry/react-router-7-route-wildcard-to-nested)**  
    Transforms route wildcards into nested routes for improved routing management.
 
-6. **[`react-router/7/add_v7_startTransition_Flag`](https://codemod.com/registry/react-router-7-add-v7-startTransition-flag)**  
+6. **[`react-router/7/add_v7_startTransition_Flag`](https://codemod.com/registry/react-router-7-add_v7_startTransition_Flag)**  
    Introduces the `startTransition` flag to enhance transitions in routing.
 
 7. **[`react-router/7/add_v7_fetcherPersist_Flag`](https://codemod.com/registry/react-router-7-add_v7_fetcherPersist_Flag)**  
@@ -38,6 +34,4 @@ The following codemods are included in this recipe:
 10. **[`react-router/7/add_v7_skipActionStatusRevalidation_Flag`](https://codemod.com/registry/react-router-7-add_v7_skipActionStatusRevalidation_Flag)**  
    Adds the `skipActionStatusRevalidation` flag for improved action handling.
 
-
 ---
-
